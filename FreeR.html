@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <title>Your free Rubux!*</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: arial, sans-serif;
+        margin-top: 50px;
+        background-color: #ffffff;
+        color:#000000;
+      }
+      button {
+      font-size: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin: 10px;
+      background-color: #00cc00;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      transition: transform 0.1s;
+    }
+    button:active {
+      transform: scale(0.95);
+    }
+    input {
+      padding: 10px;
+      margin: 5px;
+      font-size: 16px;
+    }
+    .hidden-text {
+      font-size: 20pxpx;
+      color: #ffffff;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    </style>
+    <script>
+      function submit() {
+        alert("Congrats you got 1000.000 Rubux.... oh wait it was fake! 😆");
+        alert("Be careful on the internet and don't get scamed! If this was real your roblox account was hacked and lost.");
+        document.getElementById("hidden-text").style.color ="#000000";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Buy your free Rubux!*</h1>
+    <h2>Just enter your username below:</h2>
+    <input type="text" id="username" placeholder="Enter your Rublox username"><br>
+    <button type="submit" onclick="submit()">submit</button>
+    <footer>
+      <br>
+      <button onclick="window.location.href='nfr_startpagina.html'">back</button>
+      <h1 id="hidden-text" class="hidden-text">*This is a joke! Never enter your personal information on unknown websites!😃</h1>
+    </footer>
+  </body>
+</html>
 
